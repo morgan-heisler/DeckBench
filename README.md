@@ -5,7 +5,7 @@ This repository contains the official benchmark, evaluation code, and baseline i
 DECKBench evaluates the *full presentation workflow*, from converting long research papers into slide decks to iteratively refining those decks through natural-language editing instructions. The benchmark is designed for evaluating **LLM- and agent-based systems** under realistic, multi-turn conditions.
 
 📄 **Paper**: *DECKBench: Benchmarking Multi-Agent Slide Generation and Editing from Academic Papers*  
-🧪 **Status**: ICML 2025 submission  
+🧪 **Status**: KDD 2025 submission  
 📦 **Release**: Post-submission / arXiv
 
 ---
