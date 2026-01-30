@@ -170,24 +170,6 @@ python scripts/run_editing.py \
   --split test \
   --output outputs/editing/
 ```
-
----
-
-## Baseline System
-
-We provide a reference multi-agent baseline consisting of:
-
-### Outline Agent
-Parses papers and produces structured slide outlines
-
-### Code Agent
-Generates editable slide decks (HTML or PPTX)
-
-### Editor Agent
-Applies natural-language editing instructions iteratively
-
-The baseline is intended as a functional reference implementation rather than a tuned system.
-
 ---
 
 ## Reproducibility
