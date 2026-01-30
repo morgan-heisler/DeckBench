@@ -1,6 +1,6 @@
 # DECKBench: A Benchmark for Multi-Agent Slide Generation and Editing
 
-This repository contains the official benchmark, evaluation code, and baseline implementations for **DECKBench**, a reproducible benchmark for **academic paper–to–slide generation and multi-turn slide editing**.
+This repository contains the official benchmark and evaluation code for **DECKBench**, a reproducible benchmark for **academic paper–to–slide generation and multi-turn slide editing**.
 
 DECKBench evaluates the *full presentation workflow*, from converting long research papers into slide decks to iteratively refining those decks through natural-language editing instructions. The benchmark is designed for evaluating **LLM- and agent-based systems** under realistic, multi-turn conditions.
 
