@@ -189,7 +189,7 @@ Random seeds, prompt templates, and configuration files are logged automatically
 @inproceedings{deckbench2026,
   title     = {DECKBench: Benchmarking Multi-Agent Slide Generation and Editing from Academic Papers},
   author    = {authors},
-  booktitle = {International Conference on Machine Learning (ICML)},
+  booktitle = {KDD 2026 Datasets and Benchmarks Track},
   year      = {2026}
 }
 ```
