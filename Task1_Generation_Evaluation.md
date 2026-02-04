@@ -24,24 +24,38 @@ It computes generation metrics by extracting and comparing content between slide
 
 Example:
 ```
-slides/
-├── paper_001.pdf
-├── paper_002.pdf
-└── paper_003.pdf
+gen_slides/
+├── slide_001.pdf
+├── slide_002.pdf
+└── slide_003.pdf
 ```
 
 ### 2. Reference Papers
 
 - Format: **PDF**
 - One paper per slide deck
-- Filenames must exactly match the slide PDFs
+- Filenames must exactly match the paper IDs
 
 Example:
 ```
 papers/
-├── paper_001.pdf
-├── paper_002.pdf
-└── paper_003.pdf
+├── 001.pdf
+├── 002.pdf
+└── 003.pdf
+```
+
+### 3. Reference Slides
+
+- Format: **PDF**
+- One slide deck per paper
+- Filenames must match the corresponding paper
+
+Example:
+```
+ref_slides/
+├── 001_1.pdf
+├── 002_1.pdf
+└── 003_1.pdf
 ```
 
 ## Expected Directory Structure
@@ -49,13 +63,11 @@ papers/
 By default, the evaluation assumes the following layout:
 
 ```
-/root/data/Conference_Papers_Slides/eval/
-├── slides/ # Generated slide PDFs
+/root/data/
+├── gen_slides/ # Generated slide PDFs
+├── ref_slides/ # Reference slide PDFs
 └── papers/ # Reference paper PDFs
 ```
-
-Evaluation outputs will be written to: `/root/data/daesik/generated_eval_pdf/`
-
 
 Paths can be changed using command-line arguments (see below).
 
@@ -65,36 +77,31 @@ Once the PDFs are prepared, run:
 
 ```bash
 python generation_evaluation.py \
-  --slides_root /root/data/Conference_Papers_Slides/eval/slides \
-  --papers_root /root/data/Conference_Papers_Slides/eval/papers \
-  --pipeline_root /root/data/daesik/generated_eval_pdf
+  --slides_root /root/data/ref_slides \
+  --papers_root /root/data/papers \
+  --pipeline_root /root/data/gen_slides
 ```
 ## Arguments
 Argument	Description
---slides_root	Directory containing generated slide deck PDFs
+--slides_root	Directory containing reference slide deck PDFs
 --papers_root	Directory containing reference paper PDFs
---pipeline_root	Output directory for evaluation artifacts and results
+--pipeline_root	Directory containing generated slide deck PDFs and outputs
 
 ## Outputs
 
-After completion, the pipeline output directory will contain:
-
-- Parsed slide representations
-- Parsed paper representations
-- Intermediate evaluation artifacts
-- Final generation metrics
+After completion, the pipeline output directory will contain json files corresponding to the final metric outputs.
 
 Example:
 ```
-generated_eval_pdf/
-├── parsed_slides/
-├── parsed_papers/
-├── metrics.json
-└── logs/
+gen_slides/
+├── slide_001.pdf
+├── slide_001_similarity_results.json
+├── slide_002.pdf
+└── slide_002_similarity_results.json
 ```
 ## Assumptions & Notes
 
-- Slides and papers are matched one-to-one by filename
+- Slides and papers are matched one-to-one by filename/paper identifier
 - PDFs should be text-readable (not scanned images)
 - Large PDFs may increase runtime due to text extraction
 
@@ -108,13 +115,3 @@ Empty or missing metrics
 
 Path errors
 → Use absolute paths and verify directory existence.
-
-##Task Scope
-
-This README applies only to Task 1: Generation.
-See the main repository README for:
-- Overall benchmark description
-- Other tasks
-- Dataset details
-- Submission format
-
