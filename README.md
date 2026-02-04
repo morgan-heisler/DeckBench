@@ -38,15 +38,9 @@ The benchmark includes:
 deckbench/
 ├── data/
 │ ├── metadata/ # Paper and slide metadata
-│ ├── splits/ # Train / validation / test splits
-│ └── edit_traces/ # Simulated multi-turn editing instructions
-│
-├── tasks/
-│ ├── generation/ # Paper → slides task
-│ └── editing/ # Multi-turn editing task
-│
-├── baselines/
-│ └── multi_agent/ # Reference multi-agent baseline
+│ ├── ref_slides/ # Directory containing reference slide deck PDFs
+│ ├── gen_slides/ # Directory containing generated slide deck PDFs
+│ └── papers/ # Directory containing reference paper PDFs
 │
 ├── evaluation/
 │ ├── slide_level.py # Slide-level metrics
@@ -54,10 +48,7 @@ deckbench/
 │ ├── interaction_level.py # Multi-turn metrics
 │ └── layout_metrics.py # Layout & design heuristics
 │
-├── tools/
-│ ├── fetch_data.py # Script to download papers and slides
-│ ├── pdf_parser/ # PDF parsing utilities
-│ └── slide_renderer/ # HTML / PPTX rendering tools
+├── metrics/ # scripts and utils for calculating metrics
 │
 ├── scripts/
 │ ├── run_generation.py
@@ -124,11 +115,13 @@ The generated deck does not need to match the reference slides exactly in length
 #### Running Slide Evaluation
 
 ```
-python scripts/run_evaluation.py \
-  --model your_model_name \
-  --split test \
-  --output outputs/generation/
+python generation_evaluation.py \
+  --slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
+  --papers_root /root/data/papers \ #Directory containing reference paper PDFs
+  --pipeline_root /root/data/gen_slides #Directory containing generated slide deck PDFs and output folder
 ```
+For more information, please see the separate README with a full breakdown.
+
   ---
   
 
