@@ -88,6 +88,58 @@ The script:
 
 ---
 
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/DeckBench.git
+cd DeckBench
+```
+
+### 2. Create Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+venv\Scripts\activate  # Windows
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download Required Models
+
+**Important**: Download the marker-pdf model for PDF processing:
+
+```bash
+python down_model.py
+```
+
+This will download the marker-pdf model to the `models/` directory (~2GB).
+
+### 5. Configure API Keys
+
+**Option 1: Use the provided template (Recommended)**
+
+Rename the provided template file and add your API key:
+
+```bash
+# Rename the template file
+mv ".env copy" .env
+
+# Edit the .env file and add your OpenAI API key
+nano .env  # or use your preferred editor
+```
+
+> **Note**: The `.env copy` file contains a template with all available configuration options. Simply rename it to `.env` and update the `OPENAI_API_KEY` value with your actual API key.
+
+--
+
 ## Task 1: Slide Generation
 ### Task Definition
 
