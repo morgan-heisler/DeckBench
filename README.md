@@ -138,7 +138,7 @@ nano .env  # or use your preferred editor
 
 > **Note**: The `.env copy` file contains a template with all available configuration options. Simply rename it to `.env` and update the `OPENAI_API_KEY` value with your actual API key.
 
---
+---
 
 ## Task 1: Slide Generation
 ### Task Definition
