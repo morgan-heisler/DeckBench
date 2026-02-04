@@ -187,6 +187,7 @@ python batch_user_simulation.py \
   --generation_result_path /root/data/gen_slides \
   --experiment_folder test \
   --simulation_name simulation \
+  --persona_name balanced_editor \
   --start_idx 0 \
   --end_idx -1 \
   --max_turns 5
@@ -198,29 +199,30 @@ The simulation supports the following personas:
 - executive
 
 ### Stage 2: PDF Conversion for Multi-turn Simulation
-Simulated slide decks are generated as HTML and must be converted to PDF before evaluation.
+The current editor's simulated slide decks are generated as HTML and must be converted to PDF before evaluation. If your editor outputs PDFs this step is unnecessary.
 
 ```
 python batch_html_to_pdf.py \
   --html_slide_root /root/data/Reveal/reveal.js/results_eval/daesik \
   --simulation_name simulation \
-  --output_root /root/data/daesik/multiturn_eval_pdf \
+  --output_root /root/data/gen_slides \
   --start_idx 0 \
   --end_idx -1 \
   --multiturn
 ```
 
+### Stage 3: Multi-turn Evaluation
 
----
-
-## Reproducibility
-
-All experiments in the paper can be reproduced using:
-- the provided benchmark splits
-- deterministic evaluation scripts
-- fixed LLM prompts and agent configurations
-
-Random seeds, prompt templates, and configuration files are logged automatically.
+The final stage evaluates the multi-turn simulated slide PDFs against ground-truth slides and papers.
+```
+python multiturn_evaluation.py \
+  --gt_slides_root /root/data/ref_slides \
+  --papers_root /root/data/papers \
+  --slides_root /root/data/gen_slides \
+  --output_folder /root/data/gen_slides \
+  --start_idx 0 \
+  --end_idx -1
+```
 
 ---
 
