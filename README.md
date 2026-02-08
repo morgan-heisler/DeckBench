@@ -77,20 +77,7 @@ Due to licensing restrictions, we instead provide:
 - scripts to automatically retrieve publicly available PDFs and slides from official sources
 
 Users are responsible for complying with the original licenses of the retrieved materials.
-
-### Fetching the Data
-
-```bash
-python tools/fetch_data.py \
-  --output_dir data/raw/
-```
-
-The script:
-
-- downloads paper PDFs from official conference or author pages
-- retrieves publicly hosted presentation slides when available
-- validates checksums against benchmark metadata
-
+The paper and slides links a provided in `data/paper_slide_urls.json`.
 ---
 
 ## Installation
@@ -98,7 +85,7 @@ The script:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/DeckBench.git
+git clone https://github.com/morgan-heisler/DeckBench.git
 cd DeckBench
 ```
 
@@ -119,7 +106,7 @@ pip install -r requirements.txt
 ### 4. Install Agent Frameworks and MCP tool
 - The default agent framework used is OpenAIAgent. Please follow the installation guideline at https://github.com/openai/openai-agents-python.
 - Alternative agent framework supported is AWorld. Please follow the installation guideline at https://github.com/inclusionAI/AWorld.
-- File system MCP tool is required for the simulation pipeline.
+- File system MCP tool is required for the simulation pipeline. Please follow the installation guideline at https://github.com/MarcusJellinghaus/mcp_server_filesystem
 
 ### 4. Download Required Models
 The following models are required to calculate embeddings for metric calculation. Download them from Hugging Face (~5.5GB).  
