@@ -1,0 +1,1766 @@
+{
+    "1041": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04761.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1041.pdf"
+    },
+    "1112_AVIlFBK": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09400.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1112_AVIlFBK.pdf"
+    },
+    "1187": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03461.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1187.pdf"
+    },
+    "1227": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02444.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1227.pdf"
+    },
+    "1349_WHtPdnV": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05636.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1349_WHtPdnV.pdf"
+    },
+    "1386": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00633.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1386.pdf"
+    },
+    "1498": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06579.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1498.pdf"
+    },
+    "17587": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=u7559ZMvwY",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17587.pdf"
+    },
+    "17596": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=ttXg3SKAg5",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17596.pdf"
+    },
+    "17691": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=rTDyN8yajn",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17691.pdf"
+    },
+    "17742": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=qDdSRaOiyb",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17742.pdf"
+    },
+    "179": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01421.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/179.pdf"
+    },
+    "17965": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=kklwv4c4dI",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17965.pdf"
+    },
+    "17973": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=kUCgHbmO11",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/17973.pdf"
+    },
+    "1823": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07629.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1823.pdf"
+    },
+    "18303_as9utA5": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=cH3oufN8Pl",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18303_as9utA5.pdf"
+    },
+    "18419": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=YbZxT0SON4",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18419.pdf"
+    },
+    "18719": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=P1aobHnjjj",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18719.pdf"
+    },
+    "18749": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=OGtnhKQJms",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18749.pdf"
+    },
+    "18794": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=NG7sS51zVF",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18794.pdf"
+    },
+    "18856": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=LebzzClHYw",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18856.pdf"
+    },
+    "18911": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=KI9NqjLVDT",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18911.pdf"
+    },
+    "18991": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=HXWTXXtHNl",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/18991.pdf"
+    },
+    "19176": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=CNL2bku4ra",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19176.pdf"
+    },
+    "19267": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=AJBkfwXh3u",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19267.pdf"
+    },
+    "19274": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=A4mJuFRMN8",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19274.pdf"
+    },
+    "1929": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05600.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1929.pdf"
+    },
+    "19357_MGj1Or1": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=7VPTUWkiDQ",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19357_MGj1Or1.pdf"
+    },
+    "19410": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=5t44vPlv9x",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19410.pdf"
+    },
+    "19438": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=5BCFlnfE1g",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19438.pdf"
+    },
+    "19450": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=4iPw1klFWa",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19450.pdf"
+    },
+    "19484": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=3zKtaqxLhW",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19484.pdf"
+    },
+    "19515": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=3QLkwU40EE",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19515.pdf"
+    },
+    "19562": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=22OTbutug9",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19562.pdf"
+    },
+    "19613": {
+        "conference": "ICLR",
+        "year": "2024",
+        "paper_url": "https://openreview.net/forum?id=0akLDTFR9x",
+        "slides_url": "https://iclr.cc/media/iclr-2024/Slides/19613.pdf"
+    },
+    "1979": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10038.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/1979.pdf"
+    },
+    "20941_8wm5267": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Hint-Aug_Drawing_Hints_From_Foundation_Vision_Transformers_Towards_Boosted_Few-Shot_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/20941_8wm5267.pdf"
+    },
+    "20951": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Learning_a_Deep_Color_Difference_Metric_for_Photographic_Images_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/20951.pdf"
+    },
+    "20978": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cha_Learning_To_Generate_Text-Grounded_Mask_for_Open-World_Semantic_Segmentation_From_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/20978.pdf"
+    },
+    "21016": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Goyal_Finetune_Like_You_Pretrain_Improved_Finetuning_of_Zero-Shot_Vision_Models_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21016.pdf"
+    },
+    "21038_bPxqSEy": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yun_IFSeg_Image-Free_Semantic_Segmentation_via_Vision-Language_Model_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21038_bPxqSEy.pdf"
+    },
+    "21051": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Implicit_3D_Human_Mesh_Recovery_Using_Consistency_With_Pose_and_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21051.pdf"
+    },
+    "21074": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Coreset_Sampling_From_Open-Set_for_Fine-Grained_Self-Supervised_Learning_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21074.pdf"
+    },
+    "21085": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Object_Detection_With_Self-Supervised_Scene_Adaptation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21085.pdf"
+    },
+    "21119": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_A_Unified_Knowledge_Distillation_Framework_for_Deep_Directed_Graphical_Models_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21119.pdf"
+    },
+    "21172_Byz46Zl": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Guo_Knowledge_Distillation_for_6D_Pose_Estimation_by_Aligning_Distributions_of_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21172_Byz46Zl.pdf"
+    },
+    "21195": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kong_Indescribable_Multi-Modal_Spatial_Evaluator_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21195.pdf"
+    },
+    "21207": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Contrastive_Semi-Supervised_Learning_for_Underwater_Image_Restoration_via_Reliable_Bank_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21207.pdf"
+    },
+    "21229_pL731AP": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Privacy-Preserving_Adversarial_Facial_Features_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21229_pL731AP.pdf"
+    },
+    "21247_gGSqs4l": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_SynthVSR_Scaling_Up_Visual_Speech_Recognition_With_Synthetic_Supervision_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21247_gGSqs4l.pdf"
+    },
+    "21283": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Rivas-Manzaneque_NeRFLight_Fast_and_Light_Neural_Radiance_Fields_Using_a_Shared_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21283.pdf"
+    },
+    "21367": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Luo_Leverage_Interactive_Affinity_for_Affordance_Learning_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21367.pdf"
+    },
+    "21396_ciQM3yy": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Metaxas_DivClust_Controlling_Diversity_in_Deep_Clustering_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21396_ciQM3yy.pdf"
+    },
+    "21417_IGIX3um": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Rahman_Learning_Partial_Correlation_Based_Deep_Visual_Representation_for_Image_Classification_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21417_IGIX3um.pdf"
+    },
+    "21433": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Simeoni_Unsupervised_Object_Localization_Observing_the_Background_To_Discover_Objects_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21433.pdf"
+    },
+    "21454": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_VideoMAE_V2_Scaling_Video_Masked_Autoencoders_With_Dual_Masking_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21454.pdf"
+    },
+    "21480": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Shaharabany_Similarity_Maps_for_Self-Training_Weakly-Supervised_Phrase_Grounding_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21480.pdf"
+    },
+    "21504": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_Benchmarking_Self-Supervised_Learning_on_Diverse_Pathology_Datasets_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21504.pdf"
+    },
+    "21511": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liao_Adaptive_Channel_Sparsity_for_Federated_Learning_Under_System_Heterogeneity_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21511.pdf"
+    },
+    "21527": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_How_To_Prevent_the_Continuous_Damage_of_Noises_To_Model_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21527.pdf"
+    },
+    "21541_uGvgrx3": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kang_The_Dialog_Must_Go_On_Improving_Visual_Dialog_via_Generative_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21541_uGvgrx3.pdf"
+    },
+    "21588": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Augmentation_Matters_A_Simple-Yet-Effective_Approach_to_Semi-Supervised_Semantic_Segmentation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21588.pdf"
+    },
+    "21595": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Conflict-Based_Cross-View_Consistency_for_Semi-Supervised_Semantic_Segmentation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21595.pdf"
+    },
+    "21645": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Pan_Fine-Grained_Image-Text_Matching_by_Cross-Modal_Hard_Aligning_Network_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21645.pdf"
+    },
+    "21659": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Pose-Disentangled_Contrastive_Learning_for_Self-Supervised_Facial_Representation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21659.pdf"
+    },
+    "21679_i9lDAWg": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Generalizable_Implicit_Neural_Representations_via_Instance_Pattern_Composers_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21679_i9lDAWg.pdf"
+    },
+    "21720": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Task-Specific_Fine-Tuning_via_Variational_Information_Bottleneck_for_Weakly-Supervised_Pathology_Whole_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21720.pdf"
+    },
+    "21747": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_Sparsely_Annotated_Semantic_Segmentation_With_Adaptive_Gaussian_Mixtures_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21747.pdf"
+    },
+    "21770": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Jiao_Learning_Attribute_and_Class-Specific_Representation_Duet_for_Fine-Grained_Fashion_Analysis_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21770.pdf"
+    },
+    "21784": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/He_Few-Shot_Geometry-Aware_Keypoint_Localization_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21784.pdf"
+    },
+    "21849": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ren_Defining_and_Quantifying_the_Emergence_of_Sparse_Concepts_in_DNNs_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21849.pdf"
+    },
+    "21868_Jt5RFGs": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Grounding_Counterfactual_Explanation_of_Image_Classifiers_to_Textual_Concept_Space_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21868_Jt5RFGs.pdf"
+    },
+    "21916_pKVrtUW": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Jiang_Color_Backdoor_A_Robust_Poisoning_Attack_in_Color_Space_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21916_pKVrtUW.pdf"
+    },
+    "21931": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Deep_Frequency_Filtering_for_Domain_Generalization_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21931.pdf"
+    },
+    "21961": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_PillarNeXt_Rethinking_Network_Designs_for_3D_Object_Detection_in_LiDAR_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21961.pdf"
+    },
+    "21962": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cai_MARLIN_Masked_Autoencoder_for_Facial_Video_Representation_LearnINg_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21962.pdf"
+    },
+    "21964_whhGtwx": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Compacting_Binary_Neural_Networks_by_Sparse_Kernel_Selection_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21964_whhGtwx.pdf"
+    },
+    "21989_SjCUYSy": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Deng_NeRDi_Single-View_NeRF_Synthesis_With_Language-Guided_Diffusion_As_General_Image_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/21989_SjCUYSy.pdf"
+    },
+    "22016": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Singh_Polynomial_Implicit_Neural_Representations_for_Large_Diverse_Datasets_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22016.pdf"
+    },
+    "22035": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Boulch_ALSO_Automotive_Lidar_Self-Supervision_by_Occupancy_Estimation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22035.pdf"
+    },
+    "22083": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Park_Multi-Modal_Representation_Learning_With_Text-Driven_Soft_Masks_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22083.pdf"
+    },
+    "22122": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Open-Set_Fine-Grained_Retrieval_via_Prompting_Vision-Language_Evaluator_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22122.pdf"
+    },
+    "22144": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Boosting_Semi-Supervised_Learning_by_Exploiting_All_Unlabeled_Data_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22144.pdf"
+    },
+    "22191": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ye_Partial_Network_Cloning_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22191.pdf"
+    },
+    "22197_CyRzbzC": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Detecting_Everything_in_the_Open_World_Towards_Universal_Object_Detection_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22197_CyRzbzC.pdf"
+    },
+    "22201_ZYGCbfZ": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sidhartha_Adaptive_Annealing_for_Robust_Geometric_Estimation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22201_ZYGCbfZ.pdf"
+    },
+    "22223": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Borse_DejaVu_Conditional_Regenerative_Learning_To_Enhance_Dense_Prediction_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22223.pdf"
+    },
+    "22295": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_RILS_Masked_Visual_Reconstruction_in_Language_Semantic_Space_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22295.pdf"
+    },
+    "22298": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Image_Cropping_With_Spatial-Aware_Feature_and_Rank_Consistency_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22298.pdf"
+    },
+    "22311": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Kalluri_GeoNet_Benchmarking_Unsupervised_Adaptation_Across_Geographies_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22311.pdf"
+    },
+    "22352": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gosala_SkyEye_Self-Supervised_Birds-Eye-View_Semantic_Mapping_Using_Monocular_Frontal_View_Images_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22352.pdf"
+    },
+    "22361": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Exploring_the_Relationship_Between_Architectural_Design_and_Adversarially_Robust_Generalization_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22361.pdf"
+    },
+    "22404_vQy5TWM": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_NeuralEditor_Editing_Neural_Radiance_Fields_via_Manipulating_Point_Clouds_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22404_vQy5TWM.pdf"
+    },
+    "22409_S9dYIsm": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_Mixed_Autoencoder_for_Self-Supervised_Visual_Representation_Learning_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22409_S9dYIsm.pdf"
+    },
+    "22493": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_VoxelNeXt_Fully_Sparse_VoxelNet_for_3D_Object_Detection_and_Tracking_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22493.pdf"
+    },
+    "22533": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_PartSLIP_Low-Shot_Part_Segmentation_for_3D_Point_Clouds_via_Pretrained_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22533.pdf"
+    },
+    "22562_XDqg0kQ": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Boosting_Video_Object_Segmentation_via_Space-Time_Correspondence_Learning_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22562_XDqg0kQ.pdf"
+    },
+    "22568": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Yoshimura_Rawgment_Noise-Accounted_RAW_Augmentation_Enables_Recognition_in_a_Wide_Variety_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22568.pdf"
+    },
+    "22580": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cao_Recurrent_Homography_Estimation_Using_Homography-Guided_Image_Warping_and_Focus_Transformer_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22580.pdf"
+    },
+    "22597": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Multimodal_Prompting_With_Missing_Modalities_for_Visual_Recognition_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22597.pdf"
+    },
+    "22641": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/He_Align_and_Attend_Multimodal_Summarization_With_Dual_Contrastive_Losses_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22641.pdf"
+    },
+    "22695": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Unified_Mask_Embedding_and_Correspondence_Learning_for_Self-Supervised_Video_Segmentation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22695.pdf"
+    },
+    "22720": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_Physically_Realizable_Natural-Looking_Clothing_Textures_Evade_Person_Detectors_via_3D_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22720.pdf"
+    },
+    "22779": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Supervised_Masked_Knowledge_Distillation_for_Few-Shot_Transformers_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22779.pdf"
+    },
+    "22803_GpcNDWv": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_MobileNeRF_Exploiting_the_Polygon_Rasterization_Pipeline_for_Efficient_Neural_Field_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22803_GpcNDWv.pdf"
+    },
+    "22804": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Agro_Implicit_Occupancy_Flow_Fields_for_Perception_and_Prediction_in_Self-Driving_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22804.pdf"
+    },
+    "22856": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Sajjadi_RUST_Latent_Neural_Scene_Representations_From_Unposed_Imagery_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22856.pdf"
+    },
+    "22965": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hu_A_Dynamic_Multi-Scale_Voxel_Flow_Network_for_Video_Prediction_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/22965.pdf"
+    },
+    "23000": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Adaptive_Patch_Deformation_for_Textureless-Resilient_Multi-View_Stereo_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23000.pdf"
+    },
+    "23009": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zou_CLOTH4D_A_Dataset_for_Clothed_Human_Reconstruction_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23009.pdf"
+    },
+    "23012": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Athar_TarViS_A_Unified_Approach_for_Target-Based_Video_Segmentation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23012.pdf"
+    },
+    "23074": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Liang_HelixSurf_A_Robust_and_Efficient_Neural_Implicit_Surface_Learning_of_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23074.pdf"
+    },
+    "23087_NLVTKOr": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wei_Joint_Token_Pruning_and_Squeezing_Towards_More_Aggressive_Compression_of_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23087_NLVTKOr.pdf"
+    },
+    "23104": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Arsomngern_Learning_Geometric-Aware_Properties_in_2D_Representation_Using_Lightweight_CAD_Models_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23104.pdf"
+    },
+    "23147": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Li_SHS-Net_Learning_Signed_Hyper_Surfaces_for_Oriented_Normal_Estimation_of_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23147.pdf"
+    },
+    "23149": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Cho_Generative_Bias_for_Robust_Visual_Question_Answering_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23149.pdf"
+    },
+    "23154": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_How_Can_Objects_Help_Action_Recognition_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23154.pdf"
+    },
+    "23158": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Han_FAME-ViL_Multi-Tasking_Vision-Language_Model_for_Heterogeneous_Fashion_Tasks_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23158.pdf"
+    },
+    "23176": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Fu_Learning_Semantic_Relationship_Among_Instances_for_Image-Text_Matching_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23176.pdf"
+    },
+    "23180": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Ruiz_DreamBooth_Fine_Tuning_Text-to-Image_Diffusion_Models_for_Subject-Driven_Generation_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23180.pdf"
+    },
+    "23254": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MoLo_Motion-Augmented_Long-Short_Contrastive_Learning_for_Few-Shot_Action_Recognition_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23254.pdf"
+    },
+    "23262": {
+        "conference": "CVPR",
+        "year": "2023",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Shi_Top-Down_Visual_Attention_From_Analysis_by_Synthesis_CVPR_2023_paper.pdf",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2023/Slides/23262.pdf"
+    },
+    "23566_KmYjwLG": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/liu23e/liu23e.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/23566_KmYjwLG.pdf"
+    },
+    "23695": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/luo23d/luo23d.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/23695.pdf"
+    },
+    "23770": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/kim23u/kim23u.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/23770.pdf"
+    },
+    "24182": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/enguehard23a/enguehard23a.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/24182.pdf"
+    },
+    "24242": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/severo23a/severo23a.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/24242.pdf"
+    },
+    "2449_sTmyroP": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02513.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/2449_sTmyroP.pdf"
+    },
+    "24659": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/eiben23a/eiben23a.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/24659.pdf"
+    },
+    "24894": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/lee23q/lee23q.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/24894.pdf"
+    },
+    "25059": {
+        "conference": "ICML",
+        "year": "2023",
+        "paper_url": "http://proceedings.mlr.press/v202/park23b/park23b.pdf",
+        "slides_url": "https://icml.cc/media/icml-2023/Slides/25059.pdf"
+    },
+    "2582_a9p6nLs": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05758.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/2582_a9p6nLs.pdf"
+    },
+    "2600": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08278.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/2600.pdf"
+    },
+    "2605": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08759.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/2605.pdf"
+    },
+    "2625_tk2zgNa": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09204.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/2625_tk2zgNa.pdf"
+    },
+    "27652": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=zl0HLZOJC9",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27652.pdf"
+    },
+    "27709": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ydlDRUuGm9",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27709.pdf"
+    },
+    "27715": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=yaQbTAD2JJ",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27715.pdf"
+    },
+    "27766": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=xkgfLXZ4e0",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27766.pdf"
+    },
+    "27896": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=vi3DjUhFVm",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27896.pdf"
+    },
+    "27933": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=v6iLQBoIJw",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27933.pdf"
+    },
+    "27934_sDLZNv7": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=v593OaNePQ",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27934_sDLZNv7.pdf"
+    },
+    "27947": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=uuriavczkL",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27947.pdf"
+    },
+    "27948": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=uuef1HP6X7",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27948.pdf"
+    },
+    "27997_fkEhnBT": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=uAFHCZRmXk",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/27997_fkEhnBT.pdf"
+    },
+    "28038_pShxFVe": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=te2IdORabL",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28038_pShxFVe.pdf"
+    },
+    "28082": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=szRmEM8Kx5",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28082.pdf"
+    },
+    "28088": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=swWF948IiC",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28088.pdf"
+    },
+    "28103": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=si37wk8U5D",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28103.pdf"
+    },
+    "28184_NKKXsTr": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=rdSVgnLHQB",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28184_NKKXsTr.pdf"
+    },
+    "28206": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=rGyi8NNqB0",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28206.pdf"
+    },
+    "28215": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=rAoEub6Nw2",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28215.pdf"
+    },
+    "28252": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=qNp86ByQlN",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28252.pdf"
+    },
+    "28282_VHNBZL6": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=plgLA2YBLH",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28282_VHNBZL6.pdf"
+    },
+    "28284": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=peX9zpWgg4",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28284.pdf"
+    },
+    "28293": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=pXN8T5RwNN",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28293.pdf"
+    },
+    "28308": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=pH543jrbe8",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28308.pdf"
+    },
+    "28333": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=onIro14tHv",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28333.pdf"
+    },
+    "28366_bABHyUT": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=oI5tZaWkF9",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28366_bABHyUT.pdf"
+    },
+    "28394": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=nobDw4d1k7",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28394.pdf"
+    },
+    "28467_LEQRMgp": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=mP7uV59iJM",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28467_LEQRMgp.pdf"
+    },
+    "28494": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ltrxRX5t0H",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28494.pdf"
+    },
+    "28546": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=l0ZzTvPfTw",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28546.pdf"
+    },
+    "28561": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=kmgrlG9TR0",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28561.pdf"
+    },
+    "28615": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=jqVj8vCQsT",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28615.pdf"
+    },
+    "28638": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=jTEKTdI3K9",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28638.pdf"
+    },
+    "28703": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=iGbuc9ekKK",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28703.pdf"
+    },
+    "28890_MPgOse9": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=f9w89OY2cp",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28890_MPgOse9.pdf"
+    },
+    "28984": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=dSneEp59yX",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/28984.pdf"
+    },
+    "29008": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=d63a4AM4hb",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29008.pdf"
+    },
+    "29010_i1dysCC": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=d54fIsAbff",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29010_i1dysCC.pdf"
+    },
+    "29060": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=cJPUpL8mOw",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29060.pdf"
+    },
+    "29177": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Tian_Holistic_Features_are_almost_Sufficient_for_Text-to-Video_Retrieval_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/29177.pdf"
+    },
+    "29201_R1Co4wg": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_RepViT_Revisiting_Mobile_CNN_From_ViT_Perspective_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/29201_R1Co4wg.pdf"
+    },
+    "29209": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ZbkqhKbggH",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29209.pdf"
+    },
+    "29225": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ZJftXKy12x",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29225.pdf"
+    },
+    "29231": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ZCOwwRAaEl",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29231.pdf"
+    },
+    "29265": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Qin_Noisy-Correspondence_Learning_for_Text-to-Image_Person_Re-identification_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/29265.pdf"
+    },
+    "29390": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=VxvnV6slP0",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29390.pdf"
+    },
+    "29399": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=VoayJihXra",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29399.pdf"
+    },
+    "29438": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=UxkznlcnHf",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29438.pdf"
+    },
+    "29446": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=UstOpZCESc",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29446.pdf"
+    },
+    "29456": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=UnCKU8pZVe",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29456.pdf"
+    },
+    "29483": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=UGVYezlLcZ",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29483.pdf"
+    },
+    "29610": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=SOd07Qxkw4",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29610.pdf"
+    },
+    "29668_X3fGnVg": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=QzPKSUUcud",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29668_X3fGnVg.pdf"
+    },
+    "29718": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Q0TEVKV2cp",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29718.pdf"
+    },
+    "29770": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=P8pqeEkn1H",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29770.pdf"
+    },
+    "29808": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=OhauMUNW8T",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29808.pdf"
+    },
+    "29810": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Oh8MuCacJW",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29810.pdf"
+    },
+    "29832_DX1YZBv": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=OIvg3MqWX2",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29832_DX1YZBv.pdf"
+    },
+    "29862": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Asnani_ProMark_Proactive_Diffusion_Watermarking_for_Causal_Attribution_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/29862.pdf"
+    },
+    "29919_9O41nW5": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Mn2qgIcIPS",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29919_9O41nW5.pdf"
+    },
+    "29971": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=LuT2CVrlpU",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29971.pdf"
+    },
+    "29997": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=LRrbD8EZJl",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/29997.pdf"
+    },
+    "30041": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=KeRwLLwZaw",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30041.pdf"
+    },
+    "30077": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=K3n5jPkrU6",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30077.pdf"
+    },
+    "30145_zl0EZC4": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Iu8FVcUmVp",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30145_zl0EZC4.pdf"
+    },
+    "30196": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=I0n3EyogMi",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30196.pdf"
+    },
+    "30235": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=HF1UmIVv6a",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30235.pdf"
+    },
+    "30448": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=DhH3LbA6F6",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30448.pdf"
+    },
+    "30465": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=DKkQtRMowq",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30465.pdf"
+    },
+    "30496": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Cnwz9jONi5",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30496.pdf"
+    },
+    "30527": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Instance_Tracking_in_3D_Scenes_from_Egocentric_Videos_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/30527.pdf"
+    },
+    "30542_pE26Ek0": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=BpyHIrpUOL",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30542_pE26Ek0.pdf"
+    },
+    "30568": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=BWS5gVjgeY",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30568.pdf"
+    },
+    "30748": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=8jvVNPHtVJ",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30748.pdf"
+    },
+    "30795": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=7uDI7w5RQA",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30795.pdf"
+    },
+    "30804": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=7lpDn2MhM2",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30804.pdf"
+    },
+    "30860": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=6s5uXNWGIh",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30860.pdf"
+    },
+    "30862": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=6p74UyAdLa",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30862.pdf"
+    },
+    "30894": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=6Mg7pjG7Sw",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/30894.pdf"
+    },
+    "30905": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_An_Aggregation-Free_Federated_Learning_for_Tackling_Data_Heterogeneity_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/30905.pdf"
+    },
+    "31025": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=4FVGowGzQb",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31025.pdf"
+    },
+    "31044_aApkDDq": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Goel_PAIR_Diffusion_A_Comprehensive_Multimodal_Object-Level_Image_Editor_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/31044_aApkDDq.pdf"
+    },
+    "31103": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=2vgcDW2blS",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31103.pdf"
+    },
+    "31106": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Navigate_Beyond_Shortcuts_Debiased_Learning_Through_the_Lens_of_Neural_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/31106.pdf"
+    },
+    "31115": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=2p03KljxE9",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31115.pdf"
+    },
+    "31140": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=2PzozgigiA",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31140.pdf"
+    },
+    "31174_XwCr9VL": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=1vrpdV9U3i",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31174_XwCr9VL.pdf"
+    },
+    "31215": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=1F8xTfv6ah",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31215.pdf"
+    },
+    "31238": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=0nJEgNpb4l",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31238.pdf"
+    },
+    "31262": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=0FxnSZJPmh",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/31262.pdf"
+    },
+    "31481_zlggPC3": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Azad_Activity-Biometrics_Person_Identification_from_Daily_Activities_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/31481_zlggPC3.pdf"
+    },
+    "31482_8P8HEzM": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Makeup_Prior_Models_for_3D_Facial_Makeup_Estimation_and_Applications_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/31482_8P8HEzM.pdf"
+    },
+    "31766": {
+        "conference": "CVPR",
+        "year": "2024",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xiang_MaxQ_Multi-Axis_Query_for_NM_Sparsity_Network_CVPR_2024_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2024/Slides/31766.pdf"
+    },
+    "32087": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=QG31By6S6w",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/32087.pdf"
+    },
+    "32097_E7F3kpW": {
+        "conference": "ICLR",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=JXgnnUC0PH",
+        "slides_url": "https://iclr.cc/media/iclr-2025/Slides/32097_E7F3kpW.pdf"
+    },
+    "32455": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Samira_Variance-Based_Membership_Inference_Attacks_Against_Large-Scale_Image_Captioning_Models_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/32455.pdf"
+    },
+    "32499": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_LinGen_Towards_High-Resolution_Minute-Length_Text-to-Video_Generation_with_Linear_Computational_Complexity_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/32499.pdf"
+    },
+    "32592_jOoJysu": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bergner_Token_Cropr_Faster_ViTs_for_Quite_a_Few_Tasks_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/32592_jOoJysu.pdf"
+    },
+    "32737": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/zhang24bi.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/32737.pdf"
+    },
+    "32870": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Vision-Language_Model_IP_Protection_via_Prompt-based_Learning_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/32870.pdf"
+    },
+    "32909": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/zarifzadeh24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/32909.pdf"
+    },
+    "32917": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/liu24bq.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/32917.pdf"
+    },
+    "330": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11182.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/330.pdf"
+    },
+    "33005": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/jinnai24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33005.pdf"
+    },
+    "33026": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hu_DepthCrafter_Generating_Consistent_Long_Depth_Sequences_for_Open-world_Videos_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/33026.pdf"
+    },
+    "33064": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_FreeUV_Ground-Truth-Free_Realistic_Facial_UV_Texture_Recovery_via_Cross-Assembly_Inference_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/33064.pdf"
+    },
+    "33148": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/juergens24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33148.pdf"
+    },
+    "33178": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/clarke24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33178.pdf"
+    },
+    "33293": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/sun24p.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33293.pdf"
+    },
+    "33414": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/li24ab.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33414.pdf"
+    },
+    "33467": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/fei24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33467.pdf"
+    },
+    "33937": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Scaling_up_Image_Segmentation_across_Data_and_Tasks_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/33937.pdf"
+    },
+    "33994_BCkkSko": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/lv24d.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/33994_BCkkSko.pdf"
+    },
+    "34042": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/vyas24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34042.pdf"
+    },
+    "34134": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/wang24bk.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34134.pdf"
+    },
+    "34150": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/kim24u.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34150.pdf"
+    },
+    "34294": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/pei24d.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34294.pdf"
+    },
+    "34298": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_PICD_Versatile_Perceptual_Image_Compression_with_Diffusion_Rendering_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/34298.pdf"
+    },
+    "34362": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kumar_DynaMoDe-NeRF_Motion-aware_Deblurring_Neural_Radiance_Field_for_Dynamic_Scenes_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/34362.pdf"
+    },
+    "34638": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/wang24az.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34638.pdf"
+    },
+    "34700": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/sun24n.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34700.pdf"
+    },
+    "34782": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/mariella24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34782.pdf"
+    },
+    "34864": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/wang24cr.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34864.pdf"
+    },
+    "34865": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/gui24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34865.pdf"
+    },
+    "34866": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/kim24j.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/34866.pdf"
+    },
+    "35092": {
+        "conference": "CVPR",
+        "year": "2025",
+        "paper_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Vincent_High_Temporal_Consistency_through_Semantic_Similarity_Propagation_in_Semi-Supervised_Video_CVPR_2025_paper.html",
+        "slides_url": "https://cvpr.thecvf.com/media/cvpr-2025/Slides/35092.pdf"
+    },
+    "35115": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/georgiev24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/35115.pdf"
+    },
+    "35120_3BLcYJf": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/kim24x.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/35120_3BLcYJf.pdf"
+    },
+    "35161_XhhfRwM": {
+        "conference": "ICML",
+        "year": "2024",
+        "paper_url": "https://proceedings.mlr.press/v235/jeeveswaran24a.html",
+        "slides_url": "https://icml.cc/media/icml-2024/Slides/35161_XhhfRwM.pdf"
+    },
+    "40171": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=A0HtZM0MpZ",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/40171.pdf"
+    },
+    "43445": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=zy7Jw91tdh",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/43445.pdf"
+    },
+    "43776_dKd22kS": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=tYwKQMMjJA",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/43776_dKd22kS.pdf"
+    },
+    "43941": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=qOgKMqv9T7",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/43941.pdf"
+    },
+    "43961_QE4Koxe": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=q7PAIE0z5p",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/43961_QE4Koxe.pdf"
+    },
+    "44018": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=pI4AbQ7pg1",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44018.pdf"
+    },
+    "44236_Ys6b4zh": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=kl7SbPfBsB",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44236_Ys6b4zh.pdf"
+    },
+    "44333": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=iouCP8zZQS",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44333.pdf"
+    },
+    "44339": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=ij0vj0BC72",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44339.pdf"
+    },
+    "44556": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=f21sRSRb1E",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44556.pdf"
+    },
+    "44727": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=biMO2gWsWS",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44727.pdf"
+    },
+    "44876": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=Z9BaaWDE0r",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/44876.pdf"
+    },
+    "45033": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=WCkMkMcqpb",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45033.pdf"
+    },
+    "45183_Yy64bly": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=TJHhXzTcQe",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45183_Yy64bly.pdf"
+    },
+    "45253": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=RyOpooIxDF",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45253.pdf"
+    },
+    "45276": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=RUip3cD66H",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45276.pdf"
+    },
+    "45291": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=RBZpAa27ls",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45291.pdf"
+    },
+    "45469": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=NzoZXju2bL",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45469.pdf"
+    },
+    "45592": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=LNfiFWccxn",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45592.pdf"
+    },
+    "45601": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=LCr6CIAEye",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45601.pdf"
+    },
+    "45710_TyXCAN0": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=J8YRdm39jn",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/45710_TyXCAN0.pdf"
+    },
+    "46165": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=AXJnqocQpm",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46165.pdf"
+    },
+    "46210": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=9hd5WA6QCn",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46210.pdf"
+    },
+    "46294": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=82A81az3V5",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46294.pdf"
+    },
+    "46479": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=4UfRP8MopP",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46479.pdf"
+    },
+    "46571": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=2hbx3wG2I1",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46571.pdf"
+    },
+    "46658": {
+        "conference": "ICML",
+        "year": "2025",
+        "paper_url": "https://openreview.net/forum?id=10l1pGeOcK",
+        "slides_url": "https://icml.cc/media/icml-2025/Slides/46658.pdf"
+    },
+    "728_gee7MLG": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07783.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/728_gee7MLG.pdf"
+    },
+    "744": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04155.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/744.pdf"
+    },
+    "816": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12401.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/816.pdf"
+    },
+    "823": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11332.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/823.pdf"
+    },
+    "867_Q6p1jL2": {
+        "conference": "ECCV",
+        "year": "2024",
+        "paper_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05502.pdf",
+        "slides_url": "https://eccv.ecva.net/media/eccv-2024/Slides/867_Q6p1jL2.pdf"
+    }
+}
