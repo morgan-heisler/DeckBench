@@ -116,6 +116,10 @@ venv\Scripts\activate  # Windows
 ```bash
 pip install -r requirements.txt
 ```
+### 4. Install Agent Frameworks and MCP tool
+- The default agent framework used is OpenAIAgent. Please follow the installation guideline at https://github.com/openai/openai-agents-python.
+- Alternative agent framework supported is AWorld. Please follow the installation guideline at https://github.com/inclusionAI/AWorld.
+- File system MCP tool is required for the simulation pipeline.
 
 ### 4. Download Required Models
 
@@ -129,20 +133,10 @@ This will download the marker-pdf model to the `models/` directory (~2GB).
 
 ### 5. Configure API Keys
 
-**Option 1: Use the provided template (Recommended)**
-
-Rename the provided template file and add your API key:
-
-```bash
-# Rename the template file
-mv ".env copy" .env
-
-# Edit the .env file and add your OpenAI API key
-nano .env  # or use your preferred editor
-```
-
-> **Note**: The `.env copy` file contains a template with all available configuration options. Simply rename it to `.env` and update the `OPENAI_API_KEY` value with your actual API key.
-
+Export your API value (for example, `OPENAI_API_KEY`) as environment variable with your actual API key.
+The API keys are used for simulation pipeline and evaluaiton codes. The default key is OpenAI GPT key, but you can configure to difference service and key in each configuraiton file(YAML).
+- simulation_pipeline/custom/config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables. 
+- evaluation_config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables.
 ---
 
 ## Task 1: Slide Generation
