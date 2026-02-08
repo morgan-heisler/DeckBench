@@ -122,14 +122,10 @@ pip install -r requirements.txt
 - File system MCP tool is required for the simulation pipeline.
 
 ### 4. Download Required Models
-
-**Important**: Download the marker-pdf model for PDF processing:
-
-```bash
-python down_model.py
-```
-
-This will download the marker-pdf model to the `models/` directory (~2GB).
+The following models are required to calculate embeddings for metric calculation. Download them from Hugging Face (~5.5GB).  
+- all-MiniLM-L6-v2: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+- clip-vit-base-patch32: https://huggingface.co/openai/clip-vit-base-patch32
+- gpt2: https://huggingface.co/openai-community/gpt2
 
 ### 5. Configure API Keys
 
