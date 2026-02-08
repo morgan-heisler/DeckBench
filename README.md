@@ -73,11 +73,11 @@ deckbench/
 **This repository does not redistribute conference papers or presentation slides.**
 
 Due to licensing restrictions, we instead provide:
-- metadata for each benchmark instance
-- scripts to automatically retrieve publicly available PDFs and slides from official sources
+- metadata json file for each paper and slides link.
 
 Users are responsible for complying with the original licenses of the retrieved materials.
-The paper and slides links a provided in `data/paper_slide_urls.json`.
+The paper and slides links are provided in `data/paper_slide_urls.json`.
+
 ---
 
 ## Installation
@@ -103,7 +103,7 @@ venv\Scripts\activate  # Windows
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Install Agent Frameworks and MCP tool
+### 4. Install Agent Frameworks and MCP tools
 - The default agent framework used is OpenAIAgent. Please follow the installation guideline at https://github.com/openai/openai-agents-python.
 - Alternative agent framework supported is AWorld. Please follow the installation guideline at https://github.com/inclusionAI/AWorld.
 - File system MCP tool is required for the simulation pipeline. Please follow the installation guideline at https://github.com/MarcusJellinghaus/mcp_server_filesystem
@@ -117,12 +117,12 @@ The following models are required to calculate embeddings for metric calculation
 ### 5. Configure API Keys
 
 Export your API value (for example, `OPENAI_API_KEY`) as environment variable with your actual API key.
-The API keys are used for simulation pipeline and evaluaiton codes. The default key is OpenAI GPT key, but you can configure to difference service and key in each configuraiton file(YAML).
+The API keys are used for simulation pipeline and evaluaiton scripts. The default key is OpenAI GPT key, but you can configure to use difference service and key in each configuraiton file(YAML).
 - simulation_pipeline/custom/config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables. 
 - evaluation_config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables.
 ---
 
-## Task 1: Slide Generation
+## Evaluation for Task 1: Slide Generation
 ### Task Definition
 
 #### Input
@@ -132,8 +132,9 @@ The API keys are used for simulation pipeline and evaluaiton codes. The default 
 - A complete slide deck (HTML or PPTX)
 
 The generated deck does not need to match the reference slides exactly in length or ordering.
+This repository provides evaluation scripts
 
-#### Running Slide Evaluation
+#### Running Generated Deck Evaluation
 
 ```
 python generation_evaluation.py \
@@ -146,7 +147,7 @@ For more information, please see the separate README with a full breakdown.
   ---
   
 
-## Task 2: Multi-Turn Slide Editing
+## Evaluation for Task 2: Multi-Turn Slide Editing
 ### Task Definition
 
 #### Input (per turn)
