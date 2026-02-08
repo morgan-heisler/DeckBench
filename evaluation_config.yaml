@@ -1,0 +1,28 @@
+agent_type: OpenAIAgent #AWorld
+
+api_keys:
+  None: dummy
+  GPT: ${oc.env:OPENAI_API_KEY, ""}
+
+data_path:
+  gt_slides_root: /root/data/Conference_Papers_Slides/eval/slides
+  papers_root: /root/data/Conference_Papers_Slides/eval/papers 
+  deck_list_path: /root/data/deckbench/multiturn_eval_pdf 
+output_folder: /root/data/deckbench/multiturn_eval_pdf 
+
+embedding_models:
+  text_model_path: /root/data/models/all-MiniLM-L6-v2
+  clip_model_path: /root/data/models/clip-vit-base-patch32
+  perplexity_model_path: /root/data/models/gpt2
+
+llm_judge:
+  llm_judge_model_name : '' ##gpt-5
+  llm_judge_model_server : '' #https://api.openai.com/v1
+  llm_judge_api_type : None # GPT 
+
+
+evaluation:
+  start_idx: 0 
+  end_idx: -1
+
+deck_name_prefix0: slide_
