@@ -1,0 +1,35 @@
+agent_type: OpenAIAgent #AWorld
+
+api_keys:
+  None: dummy
+  GPT: ${oc.env:OPENAI_API_KEY, ""}
+
+data_path:
+  gt_slides_root: /root/data/Conference_Papers_Slides/eval/slides
+  deck_list_path: /root/data/deckbench/deck_list_all
+
+user_agent:
+  user_model_name: gpt-5.1 
+  user_model_server: https://api.openai.com/v1 
+  user_api_key_type: GPT 
+
+  persona_name: balanced_editor  
+
+editor_agent:
+  editor_model_name: gpt-5-mini 
+  editor_model_server: https://api.openai.com/v1  
+  editor_api_key_type: GPT 
+
+  editor_agent_class_path: 'custom.editor_agent.EditorAgent'
+
+  max_tries: 2
+
+simulation:
+  simulation_name: simulation_bench_test 
+  failure_json: simulation_failure_bench_test.json
+
+  max_turns: 5 
+  max_tries: 2
+
+  start_idx: 0 
+  end_idx: -1
