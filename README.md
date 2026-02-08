@@ -3,7 +3,7 @@
 
 This repository contains the official benchmark and evaluation code for **DECKBench**, a reproducible benchmark for **academic paper–to–slide generation and multi-turn slide editing**.
 
-DECKBench evaluates the *full presentation workflow*, from converting long research papers into slide decks to iteratively refining those decks through natural-language editing instructions. The benchmark is designed for evaluating **LLM- and agent-based systems** under realistic, multi-turn conditions.
+DECKBench evaluates the *full presentation workflow*, from converting long research papers into slide decks to iteratively refining those decks through natural-language editing instructions. The benchmark is designed for evaluating **LLM- and Agent-based systems** under realistic, multi-turn conditions.
 
 📄 **Paper**: *DECKBench: Benchmarking Multi-Agent Slide Generation and Editing from Academic Papers*  
 🧪 **Status**: KDD 2026 submission  
@@ -15,9 +15,9 @@ DECKBench evaluates the *full presentation workflow*, from converting long resea
 
 Preparing academic slide decks is an iterative, design-intensive process. Existing benchmarks typically evaluate either:
 - one-shot text-to-slide generation, or
-- isolated interface manipulation tasks.
+- isolated slide editing tasks.
 
-DECKBench unifies these perspectives by introducing two tightly coupled tasks:
+DECKBench unifies these perspectives by introducing benchmark for two tightly coupled tasks:
 
 1. **Slide Generation**  
    Generate a complete academic slide deck from a full research paper.
@@ -26,36 +26,41 @@ DECKBench unifies these perspectives by introducing two tightly coupled tasks:
    Iteratively refine an existing slide deck in response to natural-language editing instructions.
 
 The benchmark includes:
-- curated paper–slide pairs
-- simulated multi-turn editing trajectories
+- curated paper–slide pairs as url links
+- initial generated slide decks to reproduce gneraiton and multi-turn evaluation
+- simulation pipeline code to generate multi-turn editing trajectories
 - reference-free and reference-based evaluation metrics
-- layout and visual design heuristics
-
+- evaluation codes for both tasks: generation and multi-turn slide editing tasks
 ---
 
 ## Repository Structure
 ```
 deckbench/
 ├── data/
-│ ├── metadata/ # Paper and slide metadata
-│ ├── ref_slides/ # Directory containing reference slide deck PDFs
-│ ├── gen_slides/ # Directory containing generated slide deck PDFs
-│ └── papers/ # Directory containing reference paper PDFs
+│ └── paper_slide_urls.json # Paper and slide metadata including url links
 │
-├── evaluation/
-│ ├── slide_level.py # Slide-level metrics
-│ ├── deck_level.py # Deck-level metrics
-│ ├── interaction_level.py # Multi-turn metrics
-│ └── layout_metrics.py # Layout & design heuristics
+├── analysis/
+│ ├── analyze_generation.py # Slide-level metrics
+│ └── analyze_multiturn.py # Layout & design heuristics
 │
 ├── metrics/ # scripts and utils for calculating metrics
 │
-├── scripts/
-│ ├── run_generation.py
-│ ├── run_editing.py
-│ └── evaluate.py
+├── simulation_pipeline/ # user simulation and editing pipeline for multi-turn evaluation
+│ └── custom/ # custom slide editor agent
+│  ├── custom.yaml
+│  ├── convert_html_to_pdf.python
+│  └── editor_agent.py
+│ ├── editor_agent_base.py
+│ ├── multiturn_pipeline.py
+│ └── multiturn_simulation.py
+│
+├── evaluation_config.yaml
+├── generation_evaluation.py
+├── multiturn_evaluation.py
+├── utils.py
 │
 ├── README.md
+├── requirements.txt
 └── LICENSE
 ```
 
