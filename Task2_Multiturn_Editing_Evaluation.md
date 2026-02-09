@@ -96,7 +96,7 @@ Argument	Description
 - --data_path.deck_list_path :	Directory containing generated slide deck PDFs
 - --output_folder : Directory to save evaluation output files for all decks (json file per deck)
 - --config : Configuration YAML for evaluation
-- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output/analysis
+- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output_folder/analysis
 
 ## Outputs
 
@@ -107,6 +107,9 @@ Example:
 sim_eval_output/
 ├── 001_multiturn_results.json
 ├── 002_multiturn_results.json
+ ├──analysis/
+ └── baseline_relative_rate_summary.csv
+
 ```
 ## Assumptions & Notes
 
