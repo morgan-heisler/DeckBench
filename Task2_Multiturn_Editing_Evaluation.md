@@ -20,7 +20,7 @@ It computes multiturn editing metrics by extracting and comparing content betwee
 
 - Format: **PDF**
 - One slide deck per paper
-- File names must match the corresponding paper with prefix 'slide_' and paper ID.
+- File names must match the corresponding paper with prefix **slide_** and **paper ID**.
 
 Example:
 ```
