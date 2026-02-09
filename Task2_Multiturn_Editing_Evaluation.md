@@ -95,7 +95,7 @@ Argument	Description
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
 - --data_path.deck_list_path :	Directory containing generated slide deck PDFs
 - --output_folder : Directory to save evaluation output files for all decks (json file per deck)
-- --config evaluation_config.yaml : Configuration YAML for evaluation
+- --config : Configuration YAML for evaluation
 - --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output/analysis
 
 ## Outputs
