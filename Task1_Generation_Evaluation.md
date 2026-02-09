@@ -82,7 +82,7 @@ python generation_evaluation.py \
   --data_path.deck_list_path /root/data/gen_slides #Directory containing generated slide deck PDFs
   --output_folder /root/data/gen_eval_output #Directory to save evaluation output files for all decks (json file per deck)
   --config evaluation_config.yaml #Configuration YAML for evaluation
-  --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
+  --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output_folder/analysis
 ```
 ## Arguments
 Argument	Description
