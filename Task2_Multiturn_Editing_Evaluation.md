@@ -1,13 +1,13 @@
-# Task 1: Generation — Evaluation Guide
+# Task 2: Multi-Turn Slide Editing — Evaluation Guide
 
-This README explains how to run the evaluation for **Task 1: Generation**, which evaluates automatically generated slide decks against their corresponding research papers.
+This README explains how to run the evaluation for **Task 2: Multi-Turn Slide Editing**, which evaluates automatically simulated and edited slide decks against their corresponding research papers.
 
-This document is intentionally scoped **only to Task 1** and is separate from the main repository README.
+This document is intentionally scoped **only to Task 2** and is separate from the main repository README.
 
 ## What This Evaluation Does
 
-The generation evaluation compares:
-- **Generated slide decks** (PDF format)
+The evaluation compares:
+- **Edited slide decks** (PDF format)
 - **Reference research slide decks** (PDF format)
 - **Reference research papers** (PDF format)
 
