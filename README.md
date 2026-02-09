@@ -195,7 +195,7 @@ python simulation_pipeline/custom/convert_html_to_pdf.py \
   --multiturn
 ```
 
-### Stage 3: Multi-turn Evaluation
+### Stage 3: Multi-turn Editing Evaluation
 
 The final stage evaluates the multi-turn edited slide PDFs against ground-truth slides and papers.
 ```
