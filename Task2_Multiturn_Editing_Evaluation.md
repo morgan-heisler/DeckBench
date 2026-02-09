@@ -82,21 +82,21 @@ Once the PDFs are prepared, run:
 
 ```bash
 python multiturn_evaluation.py \
-  --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
-  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
-  --data_path.deck_list_path /root/data/sim_slides \ #Directory containing edited slide deck PDFs
-  --output_folder /root/data/sim_eval_output \ #Directory to save evaluation output files for all decks (json file per deck)
-  --config evaluation_config.yaml \ #Configuration YAML for evaluation
-  --save_analysis_output # if set, output final summary result file(baseline_relative_rate_summary.csv) under output_folder/analysis
+  --data_path.papers_root /root/data/papers \
+  --data_path.gt_slides_root /root/data/ref_slides \
+  --data_path.deck_list_path /root/data/sim_slides \
+  --output_folder /root/data/sim_eval_output \
+  --config evaluation_config.yaml \
+  --save_analysis_output
 ```
 ## Arguments
 Argument	Description
 - --data_path.papers_root	: Directory containing reference paper PDFs
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
-- --data_path.deck_list_path :	Directory containing generated slide deck PDFs
+- --data_path.deck_list_path :	Directory containing edited slide deck PDFs
 - --output_folder : Directory to save evaluation output files for all decks (json file per deck)
 - --config : Configuration YAML for evaluation
-- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output_folder/analysis
+- --save_analysis_output : if set, output final summary result file(baseline_relative_rate_summary.csv) under output_folder/analysis
 
 ## Outputs
 
