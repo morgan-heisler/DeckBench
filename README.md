@@ -207,6 +207,7 @@ python multiturn_evaluation.py \
   --config evaluation_config.yaml #Configuration YAML for evaluation
   --save_analysis_output # if set, output final summary result file(baseline_relative_rate_summary.csv) under output/analysis
 ```
+For more information, please see the separate README with a full breakdown.
 
 ---
 
