@@ -13,10 +13,6 @@ DECKBench evaluates the *full presentation workflow*, from converting long resea
 
 ## Overview
 
-Preparing academic slide decks is an iterative, design-intensive process. Existing benchmarks typically evaluate either:
-- one-shot text-to-slide generation, or
-- isolated slide editing tasks.
-
 DECKBench unifies these perspectives by introducing benchmark for two tightly coupled tasks:
 
 1. **Slide Generation**  
@@ -60,8 +56,7 @@ deckbench/
 ├── utils.py
 │
 ├── README.md
-├── requirements.txt
-└── LICENSE
+└── requirements.txt
 ```
 
 ---
@@ -116,7 +111,7 @@ The following models are required to calculate embeddings for metric calculation
 
 ### 5. Configure API Keys
 
-Export your API value (for example, `OPENAI_API_KEY`) as environment variable with your actual API key.
+Export your API key (for example, `OPENAI_API_KEY`) as environment variable with your actual API key.
 The API keys are used for simulation pipeline and evaluaiton scripts. The default key is OpenAI GPT key, but you can configure to use difference service and key in each configuraiton file(YAML).
 - simulation_pipeline/custom/config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables. 
 - evaluation_config.yaml : configure `api_keys` to add service names(for example, GPT) and keys. The keys can be retrieved from environment variables.
@@ -129,10 +124,12 @@ The API keys are used for simulation pipeline and evaluaiton scripts. The defaul
 - Full academic paper (PDF or structured text)
 
 #### Output
-- A complete slide deck (HTML or PPTX)
+- A complete slide deck (HTML, Latex or PPTX).
+- The output deck should be converted to PDF file for evaluation.
 
 The generated deck does not need to match the reference slides exactly in length or ordering.
-This repository provides evaluation scripts
+This repository provides evaluation scripts and not providing the generation script itself. Instead, the generated decks by the baseline method is provided via Hugging Face. [![Hugging Face](https://img.shields.io/badge/huggingface-Dataset-FFD21E?logo=huggingface)](https://huggingface.co/datasets/mheisler/DeckBench)
+
 
 #### Running Generated Deck Evaluation
 
