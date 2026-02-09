@@ -98,6 +98,9 @@ venv\Scripts\activate  # Windows
 ```bash
 pip install -r requirements.txt
 ```
+#### decktape for HTML to PDF conversion
+decktape package is required for conversion. Please follow the installation guideline at https://github.com/astefanutti/decktape.
+
 ### 4. Install Agent Frameworks and MCP tools
 - The default agent framework used is OpenAIAgent. Please follow the installation guideline at https://github.com/openai/openai-agents-python.
 - Alternative agent framework supported is AWorld. Please follow the installation guideline at https://github.com/inclusionAI/AWorld.
