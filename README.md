@@ -140,14 +140,22 @@ This repository provides evaluation scripts, and not providing the generation sc
 
 ```
 python generation_evaluation.py \
-  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
-  --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
-  --data_path.deck_list_path /root/data/gen_slides \ #Directory containing generated slide deck PDFs
-  --output_folder /root/data/gen_eval_output \ #Directory to save evaluation output files for all decks (json file per deck)
-  --config evaluation_config.yaml \ #Configuration YAML for evaluation
-  --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
-
+  --data_path.gt_slides_root /root/data/ref_slides \
+  --data_path.papers_root /root/data/papers \
+  --data_path.deck_list_path /root/data/gen_slides \
+  --output_folder /root/data/gen_eval_output \
+  --config evaluation_config.yaml \
+  --save_analysis_output
 ```
+## Arguments
+Argument	Description
+- --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
+- --data_path.papers_root	: Directory containing reference paper PDFs
+- --data_path.deck_list_path	: Directory containing generated slide deck PDFs
+- --output_folder : Directory to save evaluation output files for all decks (json file per deck)
+- --config : Configuration YAML for evaluation
+- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output_folder/analysis
+
 For more information, please see the separate README with a full breakdown.
 
   ---
@@ -173,14 +181,21 @@ The editor agent takes the simulated editing instruction to edit the previous sl
 
 ```
 python simulation_pipeline/multiturn_simulation.py \
-  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
-  --data_path.deck_list_path /root/data/gen_slides \ #Directory containing initial slide decks
-  --simulation.simulation_name simulation_1 \ #Name of each simulation, a subfolder with simulation will be generated
+  --data_path.gt_slides_root /root/data/ref_slides \
+  --data_path.deck_list_path /root/data/gen_slides \
+  --simulation.simulation_name simulation_1 \
   --simulation.max_turns 5 \ #Maximum turn number
   --user_agent.persona_name balanced_editor \ #Persona name
   --config simulation_pipeline/custom/config.yaml #Configuration YAML for simulation
-
 ```
+## Arguments
+Argument	Description
+- --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
+- --data_path.deck_list_path	: Directory containing initial slide deck PDFs
+- --simulation.simulation_name : Name of each simulation, a subfolder with simulation will be generated
+- --simulation.max_turns : Maximum turn number
+- --user_agent.persona_name balanced_editor : Persona name
+- --config : Configuration YAML for simulation
 
 The simulation supports the following personas:
 - granular_analyst
@@ -199,19 +214,36 @@ python simulation_pipeline/custom/convert_html_to_pdf.py \
   --simulation_name simulation_1 \ #Name of simulation
   --multiturn
 ```
+## Arguments
+Argument	Description
+- --data_path.deck_list_path	: Directory containing simulated slide deck PDFs
+- --output_path : Directory to save converted slide deck PDFs
+- --reveal_path : Reveal package path
+- --katex_path : (Optional) Kadex local path, used for math formula conversion
+- --simulation.simulation_name : Name of each simulation
+- --multiturn : set to make it multiturn conversion
 
 ### Stage 3: Multi-turn Editing Evaluation
 
 The final stage evaluates the multi-turn edited slide PDFs against ground-truth slides and papers.
 ```
 python multiturn_evaluation.py \
-  --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
-  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
-  --data_path.deck_list_path /root/data/sim_slides \ #Directory containing edited slide deck PDFs
-  --output_folder /root/data/sim_eval_output \ #Directory to save evaluation output files for all decks (json file per deck)
-  --config evaluation_config.yaml \ #Configuration YAML for evaluation
-  --save_analysis_output # if set, output final summary result file(baseline_relative_rate_summary.csv) under output/analysis
+  --data_path.papers_root /root/data/papers \
+  --data_path.gt_slides_root /root/data/ref_slides \
+  --data_path.deck_list_path /root/data/sim_slides \
+  --output_folder /root/data/sim_eval_output \
+  --config evaluation_config.yaml \
+  --save_analysis_output
 ```
+## Arguments
+Argument	Description
+- --data_path.papers_root	: Directory containing reference paper PDFs
+- --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
+- --data_path.deck_list_path	: Directory containing generated edited deck PDFs
+- --output_folder : Directory to save evaluation output files for all decks (json file per deck)
+- --config : Configuration YAML for evaluation
+- --save_analysis_output : if set, output final summary result file(baseline_relative_rate_summary.csv) under output/analysis
+
 For more information, please see the separate README with a full breakdown.
 
 ### Implementing/Evaluating Custom Editing Agents
