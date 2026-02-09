@@ -190,10 +190,15 @@ python simulation_pipeline/custom/convert_html_to_pdf.py \
   --deck_list_path /root/data/gen_slides \ #Directory containing simulated slide decks
   --output_path /root/data/sim_slides \ #Directory to save converted slide deck PDFs
   --reveal_path /root/Reveal/reveal.js \ #Reveal package path
-  --katex_path /root/Reveal/reveal.js/kadex \ #Kadex local path, used for math formula conversion
+  --katex_path /root/Reveal/reveal.js/kadex \ #(Optional) Kadex local path, used for math formula conversion
   --simulation_name simulation_1 \ #Name of simulation
   --multiturn
 ```
+
+#### Reveal HTML Presentation Framework
+To covert HTML to PDF, a HTML presentaiton framework **Reveal** (https://github.com/hakimel/reveal.js) is required. The argument **reveal_path** should be provided to use Reveal framework. And optional **katex_path** can be provided to convert math formala with local Katex (https://github.com/KaTeX/KaTeX/releases) if math conversion fails.
+To match the same style of the provided initial slide decks, the css file and background image file are provided under **Reveal_extra**.
+
 
 ### Stage 3: Multi-turn Editing Evaluation
 
