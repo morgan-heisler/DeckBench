@@ -79,19 +79,19 @@ Once the PDFs are prepared, run:
 python generation_evaluation.py \
   --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
   --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
-  --data_path.deck_list_path /root/data/gen_slides #Directory containing generated slide deck PDFs
-  --output_folder /root/data/gen_eval_output #Directory to save evaluation output files for all decks (json file per deck)
-  --config evaluation_config.yaml #Configuration YAML for evaluation
+  --data_path.deck_list_path /root/data/gen_slides \ #Directory containing generated slide deck PDFs
+  --output_folder /root/data/gen_eval_output \ #Directory to save evaluation output files for all decks (json file per deck)
+  --config evaluation_config.yaml \ #Configuration YAML for evaluation
   --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output_folder/analysis
 ```
 ## Arguments
 Argument	Description
-- --data_path.gt_slides_root	Directory containing reference slide deck PDFs
-- --data_path.papers_root	Directory containing reference paper PDFs
-- --data_path.deck_list_path	Directory containing generated slide deck PDFs
-- --output_folder Directory to save evaluation output files for all decks (json file per deck)
-- --config evaluation_config.yaml Configuration YAML for evaluation
-- --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
+- --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
+- --data_path.papers_root	: Directory containing reference paper PDFs
+- --data_path.deck_list_path	: Directory containing generated slide deck PDFs
+- --output_folder : Directory to save evaluation output files for all decks (json file per deck)
+- --config : Configuration YAML for evaluation
+- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output/analysis
 
 ## Outputs
 
