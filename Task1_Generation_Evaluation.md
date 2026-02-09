@@ -84,7 +84,7 @@ python generation_evaluation.py \
   --config evaluation_config.yaml \
   --save_analysis_output
 ```
-## Arguments
+### Arguments
 Argument	Description
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
 - --data_path.papers_root	: Directory containing reference paper PDFs
