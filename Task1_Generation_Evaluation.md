@@ -24,11 +24,29 @@ It computes generation metrics by extracting and comparing content between slide
 
 Example:
 ```
-gen_slides/
+gen_pdf_slides/
 ├── slide_001.pdf
 ├── slide_002.pdf
 └── slide_003.pdf
 ```
+The generated decks by the baseline method is provided via Hugging Face. [![Hugging Face](https://img.shields.io/badge/huggingface-Dataset-FFD21E?logo=huggingface)](https://huggingface.co/datasets/mheisler/DeckBench)
+The baseline slide decks are generated as HTML and must be converted to PDF before evaluation. Depending on the output format(HTML, PPTX, etc.), a conversion tool to generate PDF should be developed. If your generation outputs PDFs, this step is unnecessary.
+```
+python simulation_pipeline/custom/convert_html_to_pdf.py \
+  --deck_list_path /root/data/gen_slides \
+  --output_path /root/data/gen_pdf_slides \
+  --reveal_path /root/Reveal/reveal.js \
+  --katex_path /root/Reveal/reveal.js/katex
+```
+#### Arguments
+Argument	Description
+- --data_path.deck_list_path	: Directory containing simulated slide deck PDFs
+- --output_path : Directory to save converted slide deck PDFs
+- --reveal_path : Reveal package path
+- --katex_path : (Optional) Katex local path, used for math formula conversion
+- --simulation.simulation_name : Name of each simulation
+- --multiturn : set to make it multiturn conversion
+
 
 ### 2. Reference Papers
 
@@ -64,7 +82,7 @@ By default, the evaluation assumes the following layout:
 
 ```
 /root/data/
-├── gen_slides/ # Generated slide PDFs
+├── gen_pdf_slides/ # Generated slide PDFs
 ├── ref_slides/ # Reference slide PDFs
 └── papers/ # Reference paper PDFs
 ```
@@ -79,7 +97,7 @@ Once the PDFs are prepared, run:
 python generation_evaluation.py \
   --data_path.gt_slides_root /root/data/ref_slides \
   --data_path.papers_root /root/data/papers \
-  --data_path.deck_list_path /root/data/gen_slides \
+  --data_path.deck_list_path /root/data/gen_pdf_slides \
   --output_folder /root/data/gen_eval_output \
   --config evaluation_config.yaml \
   --save_analysis_output
