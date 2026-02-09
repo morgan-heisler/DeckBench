@@ -7,16 +7,16 @@ This document is intentionally scoped **only to Task 2** and is separate from th
 ## What This Evaluation Does
 
 The evaluation compares:
-- **Edited slide decks** (PDF format)
+- **Multi-turn edited slide decks** (PDF format)
 - **Reference research slide decks** (PDF format)
 - **Reference research papers** (PDF format)
 
-It computes generation metrics by extracting and comparing content between slides and papers.
+It computes multiturn editing metrics by extracting and comparing content between slides and papers.
 > ⚠️ PowerPoint files (`.pptx`) are **not supported**. Slides must be exported to PDF before running evaluation.
 
 ## Input Preparation
 
-### 1. Generated Slides
+### 1. Multi-Turn Edited Slides
 
 - Format: **PDF**
 - One slide deck per paper
@@ -24,10 +24,15 @@ It computes generation metrics by extracting and comparing content between slide
 
 Example:
 ```
-gen_slides/
-├── slide_001.pdf
-├── slide_002.pdf
-└── slide_003.pdf
+sim_slides/
+├── 001
+  ├── slide_001.json
+  ├── slide_001_turn0.pdf
+  ├── slide_001_turn1.pdf
+  ├── slide_001_turn2.pdf
+  ├── slide_001_turn3.pdf
+  ├── slide_001_turn4.pdf
+  └── slide_001_turn5.pdf
 ```
 
 ### 2. Reference Papers
@@ -64,44 +69,44 @@ By default, the evaluation assumes the following layout:
 
 ```
 /root/data/
-├── gen_slides/ # Generated slide PDFs
+├── sim_slides/ # Generated slide PDFs
 ├── ref_slides/ # Reference slide PDFs
 └── papers/ # Reference paper PDFs
 ```
 
-Paths can be changed using command-line arguments (see below).
+Paths can be changed using command-line arguments.
 
 ## Running the Evaluation
 
 Once the PDFs are prepared, run:
 
 ```bash
-python generation_evaluation.py \
-  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
+python multiturn_evaluation.py \
   --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
-  --data_path.deck_list_path /root/data/gen_slides #Directory containing generated slide deck PDFs
-  --output_folder /root/data/gen_eval_output #Directory to save evaluation output files for all decks (json file per deck)
+  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
+  --data_path.deck_list_path /root/data/sim_slides #Directory containing edited slide deck PDFs
+  --output_folder /root/data/sim_eval_output #Directory to save evaluation output files for all decks (json file per deck)
   --config evaluation_config.yaml #Configuration YAML for evaluation
-  --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
+  --save_analysis_output # if set, output final summary result file(baseline_relative_rate_summary.csv) under output/analysis
 ```
 ## Arguments
 Argument	Description
---data_path.gt_slides_root	Directory containing reference slide deck PDFs
---data_path.papers_root	Directory containing reference paper PDFs
---data_path.deck_list_path	Directory containing generated slide deck PDFs
---output_folder Directory to save evaluation output files for all decks (json file per deck)
---config evaluation_config.yaml #Configuration YAML for evaluation
---save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
+- --data_path.papers_root	Directory containing reference paper PDFs
+- --data_path.gt_slides_root	Directory containing reference slide deck PDFs
+- --data_path.deck_list_path	Directory containing generated slide deck PDFs
+- --output_folder Directory to save evaluation output files for all decks (json file per deck)
+- --config evaluation_config.yaml Configuration YAML for evaluation
+- --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
 
 ## Outputs
 
-After completion, the pipeline output directory will contain json files corresponding to the final metric outputs.
+After completion, the output directory will contain json files corresponding to the final metric outputs.
 
 Example:
 ```
-gen_eval_output/
-├── slide_001_similarity_results.json
-└── slide_002_similarity_results.json
+sim_eval_output/
+├── 001_multiturn_results.json
+├── 002_multiturn_results.json
 ```
 ## Assumptions & Notes
 
