@@ -147,7 +147,7 @@ python generation_evaluation.py \
   --config evaluation_config.yaml \
   --save_analysis_output
 ```
-## Arguments
+#### Arguments
 Argument	Description
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
 - --data_path.papers_root	: Directory containing reference paper PDFs
@@ -184,11 +184,11 @@ python simulation_pipeline/multiturn_simulation.py \
   --data_path.gt_slides_root /root/data/ref_slides \
   --data_path.deck_list_path /root/data/gen_slides \
   --simulation.simulation_name simulation_1 \
-  --simulation.max_turns 5 \ #Maximum turn number
-  --user_agent.persona_name balanced_editor \ #Persona name
-  --config simulation_pipeline/custom/config.yaml #Configuration YAML for simulation
+  --simulation.max_turns 5 \
+  --user_agent.persona_name balanced_editor \
+  --config simulation_pipeline/custom/config.yaml
 ```
-## Arguments
+#### Arguments
 Argument	Description
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
 - --data_path.deck_list_path	: Directory containing initial slide deck PDFs
@@ -207,14 +207,14 @@ The baseline editor's simulated slide decks are generated as HTML and must be co
 
 ```
 python simulation_pipeline/custom/convert_html_to_pdf.py \
-  --deck_list_path /root/data/gen_slides \ #Directory containing simulated slide decks
-  --output_path /root/data/sim_slides \ #Directory to save converted slide deck PDFs
-  --reveal_path /root/Reveal/reveal.js \ #Reveal package path
-  --katex_path /root/Reveal/reveal.js/kadex \ #(Optional) Kadex local path, used for math formula conversion
-  --simulation_name simulation_1 \ #Name of simulation
+  --deck_list_path /root/data/gen_slides \
+  --output_path /root/data/sim_slides \
+  --reveal_path /root/Reveal/reveal.js \
+  --katex_path /root/Reveal/reveal.js/kadex \
+  --simulation_name simulation_1 \
   --multiturn
 ```
-## Arguments
+#### Arguments
 Argument	Description
 - --data_path.deck_list_path	: Directory containing simulated slide deck PDFs
 - --output_path : Directory to save converted slide deck PDFs
@@ -235,7 +235,7 @@ python multiturn_evaluation.py \
   --config evaluation_config.yaml \
   --save_analysis_output
 ```
-## Arguments
+#### Arguments
 Argument	Description
 - --data_path.papers_root	: Directory containing reference paper PDFs
 - --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
