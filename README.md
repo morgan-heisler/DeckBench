@@ -210,7 +210,7 @@ python simulation_pipeline/custom/convert_html_to_pdf.py \
   --deck_list_path /root/data/gen_slides \
   --output_path /root/data/sim_slides \
   --reveal_path /root/Reveal/reveal.js \
-  --katex_path /root/Reveal/reveal.js/kadex \
+  --katex_path /root/Reveal/reveal.js/katex \
   --simulation_name simulation_1 \
   --multiturn
 ```
@@ -219,7 +219,7 @@ Argument	Description
 - --data_path.deck_list_path	: Directory containing simulated slide deck PDFs
 - --output_path : Directory to save converted slide deck PDFs
 - --reveal_path : Reveal package path
-- --katex_path : (Optional) Kadex local path, used for math formula conversion
+- --katex_path : (Optional) Katex local path, used for math formula conversion
 - --simulation.simulation_name : Name of each simulation
 - --multiturn : set to make it multiturn conversion
 
