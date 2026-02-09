@@ -98,8 +98,10 @@ venv\Scripts\activate  # Windows
 ```bash
 pip install -r requirements.txt
 ```
-#### decktape for HTML to PDF conversion
-decktape package is required for conversion. Please follow the installation guideline at https://github.com/astefanutti/decktape.
+#### Installation for HTML to PDF conversion
+- **Reveal.js HTML Presentation Framework** : To covert HTML to PDF, a HTML presentaiton framework **Reveal** (https://github.com/hakimel/reveal.js) is required. The argument **reveal_path** should be provided to use Reveal framework. To match the same style of the provided initial slide decks, the css file and background image file are provided under **Reveal_extra**.
+- **decktape** : Please follow the installation guideline at https://github.com/astefanutti/decktape.
+- Optional **katex_path** : convert math formula with local Katex (https://github.com/KaTeX/KaTeX/releases) if math conversion fails.
 
 ### 4. Install Agent Frameworks and MCP tools
 - The default agent framework used is OpenAIAgent. Please follow the installation guideline at https://github.com/openai/openai-agents-python.
@@ -197,11 +199,6 @@ python simulation_pipeline/custom/convert_html_to_pdf.py \
   --simulation_name simulation_1 \ #Name of simulation
   --multiturn
 ```
-
-#### Reveal HTML Presentation Framework
-To covert HTML to PDF, a HTML presentaiton framework **Reveal** (https://github.com/hakimel/reveal.js) is required. The argument **reveal_path** should be provided to use Reveal framework. And optional **katex_path** can be provided to convert math formala with local Katex (https://github.com/KaTeX/KaTeX/releases) if math conversion fails.
-To match the same style of the provided initial slide decks, the css file and background image file are provided under **Reveal_extra**.
-
 
 ### Stage 3: Multi-turn Editing Evaluation
 
