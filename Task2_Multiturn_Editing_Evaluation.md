@@ -53,7 +53,7 @@ papers/
 
 - Format: **PDF**
 - One slide deck per paper
-- File names must match the corresponding paper IDs.To distinguish from paper file names, the file name includes suffix '_1'.
+- File names must match the corresponding paper IDs.To distinguish from paper file names, the file name includes suffix **_1**.
 
 Example:
 ```
@@ -69,7 +69,7 @@ By default, the evaluation assumes the following layout:
 
 ```
 /root/data/
-├── sim_slides/ # Generated slide PDFs
+├── sim_slides/ # Edited slide PDFs
 ├── ref_slides/ # Reference slide PDFs
 └── papers/ # Reference paper PDFs
 ```
@@ -91,12 +91,12 @@ python multiturn_evaluation.py \
 ```
 ## Arguments
 Argument	Description
-- --data_path.papers_root	Directory containing reference paper PDFs
-- --data_path.gt_slides_root	Directory containing reference slide deck PDFs
-- --data_path.deck_list_path	Directory containing generated slide deck PDFs
-- --output_folder Directory to save evaluation output files for all decks (json file per deck)
-- --config evaluation_config.yaml Configuration YAML for evaluation
-- --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
+- --data_path.papers_root	: Directory containing reference paper PDFs
+- --data_path.gt_slides_root	: Directory containing reference slide deck PDFs
+- --data_path.deck_list_path :	Directory containing generated slide deck PDFs
+- --output_folder : Directory to save evaluation output files for all decks (json file per deck)
+- --config evaluation_config.yaml : Configuration YAML for evaluation
+- --save_analysis_output : if set, output final summary result file(generation_metrics.csv) under output/analysis
 
 ## Outputs
 
