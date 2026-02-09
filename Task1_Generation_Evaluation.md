@@ -20,7 +20,7 @@ It computes generation metrics by extracting and comparing content between slide
 
 - Format: **PDF**
 - One slide deck per paper
-- Filenames must match the corresponding paper
+- File names must match the corresponding paper with prefix 'slide_' and paper ID.
 
 Example:
 ```
@@ -34,7 +34,7 @@ gen_slides/
 
 - Format: **PDF**
 - One paper per slide deck
-- Filenames must exactly match the paper IDs
+- File names must exactly match the paper IDs.
 
 Example:
 ```
@@ -48,7 +48,7 @@ papers/
 
 - Format: **PDF**
 - One slide deck per paper
-- Filenames must match the corresponding paper
+- File names must match the corresponding paper IDs.To distinguish from paper file names, the file name includes suffix '_1'.
 
 Example:
 ```
@@ -77,15 +77,21 @@ Once the PDFs are prepared, run:
 
 ```bash
 python generation_evaluation.py \
-  --slides_root /root/data/ref_slides \
-  --papers_root /root/data/papers \
-  --pipeline_root /root/data/gen_slides
+  --data_path.gt_slides_root /root/data/ref_slides \ #Directory containing reference slide deck PDFs
+  --data_path.papers_root /root/data/papers \ #Directory containing reference paper PDFs
+  --data_path.deck_list_path /root/data/gen_slides #Directory containing generated slide deck PDFs
+  --output_folder /root/data/gen_eval_output #Directory to save evaluation output files for all decks (json file per deck)
+  --config evaluation_config.yaml #Configuration YAML for evaluation
+  --save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
 ```
 ## Arguments
 Argument	Description
---slides_root	Directory containing reference slide deck PDFs
---papers_root	Directory containing reference paper PDFs
---pipeline_root	Directory containing generated slide deck PDFs and outputs
+--data_path.gt_slides_root	Directory containing reference slide deck PDFs
+--data_path.papers_root	Directory containing reference paper PDFs
+--data_path.deck_list_path	Directory containing generated slide deck PDFs
+--output_folder Directory to save evaluation output files for all decks (json file per deck)
+--config evaluation_config.yaml #Configuration YAML for evaluation
+--save_analysis_output # if set, output final summary result file(generation_metrics.csv) under output/analysis
 
 ## Outputs
 
@@ -93,10 +99,8 @@ After completion, the pipeline output directory will contain json files correspo
 
 Example:
 ```
-gen_slides/
-├── slide_001.pdf
+gen_eval_output/
 ├── slide_001_similarity_results.json
-├── slide_002.pdf
 └── slide_002_similarity_results.json
 ```
 ## Assumptions & Notes
@@ -108,7 +112,7 @@ gen_slides/
 ## Common Issues
 
 File not found errors
-→ Check that filenames match exactly between slides and papers.
+→ Check if file names match exactly between slides and papers.
 
 Empty or missing metrics
 → Ensure PDFs contain extractable text.
