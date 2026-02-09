@@ -69,7 +69,7 @@ By default, the evaluation assumes the following layout:
 └── papers/ # Reference paper PDFs
 ```
 
-Paths can be changed using command-line arguments (see below).
+Paths can be changed using command-line arguments.
 
 ## Running the Evaluation
 
