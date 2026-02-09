@@ -142,7 +142,7 @@ This repository provides evaluation scripts, and not providing the generation sc
 python generation_evaluation.py \
   --data_path.gt_slides_root /root/data/ref_slides \
   --data_path.papers_root /root/data/papers \
-  --data_path.deck_list_path /root/data/gen_slides \
+  --data_path.deck_list_path /root/data/gen_pdf_slides \
   --output_folder /root/data/gen_eval_output \
   --config evaluation_config.yaml \
   --save_analysis_output
