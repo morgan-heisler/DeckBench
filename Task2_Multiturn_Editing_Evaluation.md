@@ -107,7 +107,7 @@ Example:
 sim_eval_output/
 ├── 001_multiturn_results.json
 ├── 002_multiturn_results.json
- ├──analysis/
+└── analysis/
  └── baseline_relative_rate_summary.csv
 
 ```
