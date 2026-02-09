@@ -214,6 +214,13 @@ python multiturn_evaluation.py \
 ```
 For more information, please see the separate README with a full breakdown.
 
+### Implementing/Evaluating Custom Editing Agents
+
+This repository provides a baseline Editor Agent implemented in **simulation_pipeline/custom** folder. 
+- A custom agentic editing system can be implemented by inheriting abstract class **EditorAgentBase** implemented in **simulation_pipeline/editor_agent_base.py**. The baselien Editor Agent **EditorAgent** is implemented in the script **simulation_pipeline/custom/editor_agent.py**, and You can refer to this example to implement your own editor agent for evaluation.
+- By implementing custom editor agent and any necessary additional scripts(ex: PDF conversion code) in **simulation_pipeline/custom** folder, the required changes can be limited to this folder minimizing impact to other parts of the repository.
+- In **simulation_pipeline/custom/config.yaml**, the argument **editor_agent.editor_agent_class_path** should be updated to specify the path to the implemented subclass(ex: CustomEditorAgent) for dynamic class importing in the simulation script. 
+
 ---
 
 ## Citation
