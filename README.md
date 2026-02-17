@@ -257,11 +257,14 @@ This repository provides a baseline Editor Agent implemented in **simulation_pip
 
 ## Citation
 ```
-@inproceedings{deckbench2026,
-  title     = {DECKBench: Benchmarking Multi-Agent Slide Generation and Editing from Academic Papers},
-  author    = {authors},
-  booktitle = {KDD 2026 Datasets and Benchmarks Track},
-  year      = {2026}
+@misc{jang2026deckbenchbenchmarkingmultiagentframeworks,
+      title={DECKBench: Benchmarking Multi-Agent Frameworks for Academic Slide Generation and Editing}, 
+      author={Daesik Jang and Morgan Lindsay Heisler and Linzi Xing and Yifei Li and Edward Wang and Ying Xiong and Yong Zhang and Zhenan Fan},
+      year={2026},
+      eprint={2602.13318},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2602.13318}, 
 }
 ```
 ---
