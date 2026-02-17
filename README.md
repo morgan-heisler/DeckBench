@@ -1,5 +1,16 @@
-# DECKBench: A Benchmark for Multi-Agent Slide Generation and Editing
-[![Hugging Face](https://img.shields.io/badge/huggingface-Dataset-FFD21E?logo=huggingface)](https://huggingface.co/datasets/mheisler/DeckBench)
+
+<h1 align="center">
+DECKBench: A Benchmark for Multi-Agent Slide Generation and Editing
+</h1>
+<p align="center">
+<a href="https://arxiv.org/abs/2602.13318">
+<img src="https://img.shields.io/static/v1?label=arXiv&message=Paper&color=red" alt="arXiv Paper">
+</a>
+<a href="https://huggingface.co/datasets/mheisler/DeckBench">
+<img src="https://img.shields.io/badge/HuggingFace-Datasets-yellow?logo=huggingface" alt="HuggingFace Models">
+</a>
+<!-- [![Hugging aFace](https://img.shields.io/badge/huggingface-Dataset-FFD21E?logo=huggingface)](https://huggingface.co/datasets/mheisler/DeckBench) -->
+</p>
 
 This repository contains the official benchmark and evaluation code for **DECKBench**, a reproducible benchmark for **academic paper–to–slide generation and multi-turn slide editing**.
 
